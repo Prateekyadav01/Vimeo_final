@@ -39,8 +39,9 @@
     font-size: 18px;
 }
 .menu-left li:hover{
-    background-color: darkgray;
-    color: black;
+    border-radius: 10px;
+    background-color: #28313A;
+    color: rgb(255, 255, 255);
     cursor: pointer;
 }
 .menu-left li svg{
