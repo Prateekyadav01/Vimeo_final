@@ -77,9 +77,13 @@
 .menu-right{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
 }
-
+.menu-right span{
+    font-size: 18px;
+}
 .menu-right li{
     color: white;
     list-style: none;
@@ -94,6 +98,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px  darkgray;
     background: linear-gradient(to left, rgb(80, 185, 234) 50%, transparent 50%);
     background-size: 200% 100%;
     background-position: left;
@@ -111,7 +116,8 @@
 .menu-right-button  svg {
    color: rgb(11, 10, 10);
    height: 40px;
-   width: 180px;
+   width: 60px;
+   margin-left: 10px;
    background-color: rgb(80, 185, 234);
    border-radius: 10px;
    padding: 10px;

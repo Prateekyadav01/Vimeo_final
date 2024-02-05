@@ -112,6 +112,7 @@ body{
     margin: 25px;
     font-size: 60px;
     text-align: center;
+    transition: all 3s;
     /* position: fixed; */
 }
 .image1{
