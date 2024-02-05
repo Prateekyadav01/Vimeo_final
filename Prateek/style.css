@@ -4,6 +4,7 @@
 }
 body{
     overflow-x: hidden;
+    font-family: ABC Repro,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 .header{
     width: 100vw;
@@ -291,7 +292,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 80px;
     margin-bottom: 30px;
 }
 .section5 h4{
@@ -311,6 +312,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     width: 90vw;
+    margin-top: 100px;
     /* height: 50vh; */
     /* border: 2px solid red; */
     /* justify-content: center; */
@@ -347,9 +349,9 @@ body{
     justify-content: space-around;
     width: 100vw;
     /* border: 2px solid red; */
-    height: 100vh;
+    height: 140vh;
     position: relative;
-    margin-top: 80px;
+    margin-top: 280px;
    
 }
 
