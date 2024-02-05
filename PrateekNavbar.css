@@ -78,9 +78,13 @@
 .menu-right{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
 }
-
+.menu-right span{
+    font-size: 18px;
+}
 .menu-right li{
     color: white;
     list-style: none;
@@ -88,7 +92,38 @@
     margin: 5px;
     padding: 10px;
 }
-.menu-right-button{
+.menu-right-button {
+    width: 180px;
+    height: 60px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px  darkgray;
+    background: linear-gradient(to left, rgb(80, 185, 234) 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: left;
+    border-radius: 10px;
+    z-index: 5;
+    position: relative;
+    transition: background-position 350ms ease, color 350ms ease;
+}
+
+.menu-right-button:hover {
+    background-position: right;
+    color: #100f0f; /* Change to your desired text color on hover */
+}
+
+.menu-right-button  svg {
+   color: rgb(11, 10, 10);
+   height: 40px;
+   width: 60px;
+   margin-left: 10px;
+   background-color: rgb(80, 185, 234);
+   border-radius: 10px;
+   padding: 10px;
+}
+/* .menu-right-button{
     width: 100px;
     height: 40px;
     margin-top: 5px;
@@ -97,7 +132,7 @@
     align-items: center;
     background-color: rgb(39, 36, 36);
     gap: 10px;
-}
+} */
 .wrapper{
     width: 200px;
     height: 40px;
