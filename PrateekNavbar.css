@@ -1,0 +1,246 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.menu-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    margin-bottom: 20px;
+    z-index: 300;
+}
+.menu-left{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.menu-left li{
+    list-style: none;
+    margin: 5px;
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 18px;
+}
+.menu-left li:hover{
+    background-color: darkgray;
+    color: black;
+    cursor: pointer;
+}
+.menu-left li svg{
+    width: 20px;
+    text-align: center;
+}
+.sub{
+    display: none;
+}
+.app{
+    display: none;
+}
+.app1{
+    display: none;
+}
+.app2{
+    display: none;
+}
+#webinars{
+    list-style: none;
+    color: white;
+    margin-left: 20px;
+}
+.active{
+    display: flex;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: black;
+    color: white;
+    width: 80vw;
+    z-index: 300;
+}
+.menu-right{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.menu-right li{
+    color: white;
+    list-style: none;
+    font-size: 18px;
+    margin: 5px;
+    padding: 10px;
+}
+.menu-right-button{
+    width: 100px;
+    height: 40px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(39, 36, 36);
+    gap: 10px;
+}
+.wrapper{
+    width: 200px;
+    height: 40px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.75rem;
+    background-color: rgb(39, 36, 36);
+    gap: 10px;
+  }
+.menu-right-button span{
+    color: white;
+}
+.wrapper svg{
+    width: 30px;
+    background-color: aqua;
+    display: flex;
+}
+.btn-pink {
+    background-color: rgb(77, 72, 72);
+    width: fit-content;
+    color: white;
+    padding: 0.8rem 2.3rem;
+    box-shadow: 5px 5px 7px 0px #0000003f;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 0.75rem;
+    font-weight: 500;
+    position: relative;
+    width: 20vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    gap: 10px;
+  }
+  .btn-pink::before {
+    content: "";
+    position: absolute;
+    background-color: #17dfb1;
+    top: 0;
+    left : 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 0.75rem;
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: all 0.8s;
+  }
+  .btn-pink:hover::before {
+    transform: scaleX(1);
+  }
+  .btn-pink:hover {
+    color:black;
+  }
+  .btn-pink svg:hover {
+    transform: translateX(50px);
+    transition: transform 0.3s ease;
+}
+
+.ul-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* align-items: self-start; */
+    /* gap: 20px; */
+}
+.menu-right li:hover{
+    background-color: darkgray;
+    color: black;
+    cursor: pointer;
+}
+.sub-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+}
+.sub-list li a {
+    list-style: none;
+}
+.sub-list a:hover{
+  background-color: darkgray;
+}
+
+.bar1, .bar2 , .bar3{
+    background-color: white;
+    height: 4px;
+    width: 36px;
+    margin: 3px;
+    border-radius: 10px;
+}
+.menu-bar .hambour{
+    display: none;
+}
+
+
+@media only screen and (max-width:1024px) {
+    .menu-left {
+        width: 35vw;
+    }
+    .menu-left li{
+        list-style: none;
+        margin: 5px;
+        padding: 10px;
+        color: white;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 15px;
+    }
+    .menu-right li{
+        color: white;
+        list-style: none;
+        font-size: 15px;
+        margin: 5px;
+        padding: 10px;
+    }
+    .video{
+        width: 70vw;
+        box-sizing: content-box;
+    }
+}
+@media only screen and (max-width:768px) {
+    .menu-left {
+        display: none;
+    }
+    .menu-bar .hambour {
+        display: block;
+    }
+    .menu-right li{
+        color: white;
+        list-style: none;
+        font-size: 18px;
+        margin: 5px;
+        padding: 10px;
+    }
+    .video{
+        width: 70vw;
+        box-sizing: content-box;
+    }
+}
