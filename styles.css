@@ -80,18 +80,16 @@ a {
 /*  eplore box */
 
 .explore-box {
-    display: flex;
     height: 136px;
     width: 1926px;
-    margin: 81px 0px 31px;
+    margin:  99px 0px 0px 0px;
     /* background-color: red; */
 }
 
 .inside-explorbox {
-    display: flex;
     height: 136px;
     width: 1472px;
-    margin: 0px 0px 31px 226px;
+    margin: 0px 225px;
     /* background-color: rgb(255, 255, 255); */
 }
 .explorbox-bg {
@@ -138,8 +136,10 @@ a {
 .ex-button_design{
     height: 55px;
     width: 166px;
-    margin: 0xp 48px 0px 0px;
+    margin: 0px  48px 0px 0px;
+    padding: 15px 20px  ;
     border-radius: 15px;
+    
     background-color: #0A0E12;
 }
 
@@ -151,8 +151,13 @@ a {
     /* margin: 15px; */
 }
 .wording span {
-    margin: 15px;
     font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wording span i {
+    padding: 2px 18px;
 }
 
 .ex-smallbox {
@@ -167,51 +172,44 @@ a {
 
 
 .main {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 74vh;
+
+    width: 101vw;
+    height: 81vh;
+
+    /* background-color: red; */
 }
 
 
 .video-container{
     width: 76.9vw;
     height: 80vh;
+
+    margin: 0px 293px;
 }
 
 .vid{
-    position: relative;
     z-index: 1;
-    display: inline;
     width: 90%;
     height: 90%;
     border-radius: 1.5rem; 
     object-position: center;
     object-fit: cover;
-    margin-left: 70px;
-    margin-top: 30px;
+    margin: 0p 0px;
     box-shadow: 0 8px 90px rgba(239, 235, 235, 0.2);
 }
 
-.inside_video {
-    position: absolute;
-    top: 20%;
-    left: 8%;
-    width: 30%; 
-    height: 80%;
-    padding: 200px;
-    box-sizing: border-box;
-    color: #fff; 
-    /* border: 2px solid red; */
-    z-index: 2;
-    padding-top: 30px;
+.heading_video {
+    margin: -450px 26px;
 }
 
+.heading-down_btn {
+    width: 1209px;
+}
 
 .heading_video span{
     font-size: 120px;
+    color: white;
+    font-size: ;
     font: bold;
 }
 .para_video{
@@ -357,7 +355,6 @@ a {
     min-height: auto;
     max-width: 1171px;
     min-width: auto;
-    
 }
 
 
@@ -378,9 +375,6 @@ a {
 .sticky-vid {
     position: relative;
     z-index: -10;
-    display: inline;
-    width: 96%;
-    height: 90%;
     border-radius: 1.5rem; 
     object-position: center;
     object-fit: cover;
@@ -847,15 +841,43 @@ a {
     margin: 0px 231px;
     padding: 96px 0px 32px;
     background-color: pink;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    width: 100%;
+    min-width: 375px;   
+    max-width: 1440px;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(25,minmax(0,1fr));
+    padding-bottom: 2rem;
+    padding-top: 4rem;
+    row-gap: 6rem;  
+    padding-top: 6rem;
+
 }
 
 .footer-up {
-    width: 1324px;
-    height: 195px;
-    align-items: center;
-    background: #000000;
+    
+}
+
+.svg {
+    width: 199px;
+    height: 183px;
 }
 
 .relative_upfooter{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-up h2 {
+    font-size: 26px;
+    color: white;
+}
+.footer-up p {
     
+    font: 16px;
+    margin: 21px 0px 0px 0px;
+    color: rgb(195, 195, 195);
 }
