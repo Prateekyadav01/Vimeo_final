@@ -40,6 +40,7 @@ body{
     justify-content: center;
     width: 100vw;
     height: 100vh;
+    margin-top: 40px;
     /* border: 2px solid green; */
 }
 .video_container{
@@ -93,9 +94,235 @@ body{
     margin-left: 200px;
 }
 .button_start{
+    width: 600px;
+    margin-left: -40px;
+    margin-top: 80px;
     display: flex;
+    gap: 40px;
+}
+/* .button_start .btn-pink1{
+    background-color: rgb(52, 49, 49);
+    width: fit-content;
+    color: white;
+    padding: 0.8rem 2.3rem;
+    box-shadow: 5px 5px 7px 0px #2b2a2a3f;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 0.75rem;
+    font-weight: 500;
+    position: relative;
+    width: 500px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    gap: 10px;
+} */
+.button_start .btn-pink1 {
+    background-color: rgb(91, 155, 185);
+    width: fit-content;
+    color: white;
+    padding: 0.8rem 2.3rem;
+    box-shadow: 5px 5px 7px 0px #2b2a2a3f;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 0.75rem;
+    font-weight: 500;
+    position: relative;
+    width: 500px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    gap: 10px;
+    overflow: hidden; /* Hide overflow to prevent pseudo-element from being visible outside the button */
 }
 
+.button_start .btn-pink1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 100%; /* Initially position it to the right of the button */
+    width: 100%;
+    height: 100%;
+    background-color: rgb(58, 189, 240);
+    transition: left 0.5s; /* Transition the right property */
+    z-index: -1; /* Place the pseudo-element behind the button content */
+}
+
+.button_start .btn-pink1:hover {
+    color: black; /* Change text color to black on hover */
+}
+
+.button_start .btn-pink1:hover::before {
+    left: 0; /* Move it to the left on hover */
+}
+
+/* .button_start .btn-pink1 {
+    background-color: rgb(52, 49, 49);
+    width: fit-content;
+    color: white;
+    padding: 0.8rem 2.3rem;
+    box-shadow: 5px 5px 7px 0px #2b2a2a3f;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 0.75rem;
+    font-weight: 500;
+    position: relative;
+    width: 500px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    gap: 10px;
+    overflow: hidden; /* Hide overflow to prevent pseudo-element from being visible outside the button */
+/* } */
+
+.button_start .btn-pink1::before {
+    content: "";
+    position: absolute;
+    /* color: black; */
+    top: 0;
+    right: 100%; /* Initially position it to the right of the button */
+    width: 100%;
+    height: 100%;
+    background-color: rgb(80, 185, 234);
+    transition: right 0.5s; /* Transition the right property */
+    color: black;
+}
+
+.button_start .btn-pink1:hover {
+    color: black; /* Change text color to black on hover */
+}
+
+.button_start .btn-pink1:hover::before {
+    right: 0;
+} */
+.button_start .btn-pink1 svg{
+   width: 30px;
+}
+.button1 .btn-pink22 svg{
+    width: 30px;
+ }
+ .button1 .btn-pink22 {
+    background-color: white;
+    color: black;
+    padding: 0.8rem 2.3rem;
+    box-shadow: 5px 5px 7px 0px #2b2a2a3f;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 0.75rem;
+    font-weight: 500;
+    position: relative;
+    width: 300px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.button1 .btn-pink22::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -100%; /* Initially position it to the left of the button */
+    width: 100%;
+    height: 100%;
+    background-color: rgb(43, 176, 237);
+    /* transition: right 0.5s; */
+    z-index: -1;
+}
+
+.button1 .btn-pink22:hover::before {
+    
+    right: 0; /* Move it to the right (left of the button) on hover */
+}
+
+.button1 .btn-pink22:hover {
+    background-color: rgb(41, 185, 241);
+    /* transition: right 0.5s; */
+    color: white;
+}
+
+
+/* .button1 .btn-pink22{
+    background-color: rgb(91, 155, 185);
+    width: fit-content;
+    color: white;
+    padding: 0.8rem 2.3rem;
+    box-shadow: 5px 5px 7px 0px #2b2a2a3f;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 0.75rem;
+    font-weight: 500;
+    position: relative;
+    width: 500px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    gap: 10px;
+    overflow: hidden; /* Hide overflow to prevent pseudo-element from being visible outside the button */
+/* }  */
+
+.button1 .btn-pink22::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 100%; /* Initially position it to the right of the button */
+    width: 100%;
+    height: 100%;
+    background-color: rgb(58, 189, 240);
+    transition: left 0.5s; /* Transition the right property */
+    z-index: -1; /* Place the pseudo-element behind the button content */
+}
+
+.button1 .btn-pink22:hover {
+    color: black; /* Change text color to black on hover */
+}
+
+.button1 .btn-pink2:hover::before {
+    left: 0; /* Move it to the left on hover */
+} */
+
+.button_start .btn-pink{
+    background-color: rgb(52, 49, 49);
+    width: fit-content;
+    color: white;
+    padding: 0.8rem 2.3rem;
+    box-shadow: 5px 5px 7px 0px #2b2a2a3f;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 0.75rem;
+    font-weight: 500;
+    position: relative;
+    width: 500px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    gap: 10px;
+}
+.button_start .btn-pink1 svg{
+  width: 30px;
+}
+.button_start .btn-pink svg{
+    width: 30px;
+  }
 .middle1{
     display: flex;
     flex-direction: column;
@@ -112,6 +339,7 @@ body{
     margin: 25px;
     font-size: 60px;
     text-align: center;
+    transition: all 3s;
     /* position: fixed; */
 }
 .image1{
@@ -153,19 +381,31 @@ body{
     color: white;
 }
 .image1image{
-    width: 45%;
+    width: 35%;
     height: 100%;
+    /* border-radius: 10px; */
+
+}
+.image1image video{
+    border-radius: 10px;
 }
 .image11{
-    width: 100%;
-    height: 100%;
+   height: 500px;
+   width: 500px;
     border-radius: 1.75rem;
 }
 .image22{
-    width: 100%;
+    /* width: 90%;
     height: 100%;
+    border-radius: 1.75rem; */
+    margin-left: 100px;
+    height: 400px;
+   width: 400px;
     border-radius: 1.75rem;
 }
+/* .image1image video{
+    border-radius: 10px;
+} */
 
 .section3{
     width: 100vw;
@@ -219,7 +459,7 @@ body{
     flex-direction: column;
     width: 90vw;
     height: 60vh;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-left: 80px;
     margin-top: 50px;
     border-radius: 1.75rem;
@@ -394,6 +634,8 @@ body{
     /* border: 2px solid red; */
 }
 .section722{
+    height: 80px;
+    width: 200px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -739,4 +981,26 @@ body{
         height: 100vh;
         margin-top: 100px;
       }
+}
+
+.hero {
+    color: white;
+    margin: 25px;
+    font-size: 60px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: title 3s cubic-bezier(.33333, 0, .25, 1) infinite forwards;
+}
+
+@keyframes title {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(30);
+    }
 }
