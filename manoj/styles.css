@@ -632,7 +632,7 @@ li {
   margin-top: 0;
   width: 100%;
   height: 180px;
-  animation: slideAnimation 10s linear infinite;
+  animation: slideAnimation 3s linear infinite;
 }
 
 .simg {
@@ -657,4 +657,5 @@ li {
   width: 90%;
   overflow: hidden;
   align-items: center;
+  
 }
