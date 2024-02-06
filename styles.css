@@ -90,7 +90,7 @@ a {
 .inside-explorbox {
     height: 136px;
     width: 92vw;
-    margin-left: 40px;
+    margin-left: 10px;
     /* margin: 0px 225px; */
     /* border: 2px solid rebeccapurple; */
 
@@ -102,7 +102,7 @@ a {
     align-items: center;
     height: 103px;
     width: 1324px;
-    margin: 16px 0px 0px 71px;
+    /* margin: 16px 0px 0px 71px; */
     padding: 24px 0px 24px 0px;
     border-radius: 24px;
     background-color: #141A20;
@@ -190,7 +190,7 @@ a {
 
     /* margin: 0px 293px; */
 
-    margin-left: 110px;
+    /* margin-left: 110px; */
 }
 
 .vid{
@@ -441,7 +441,7 @@ a {
 .slider_pannel{
     height: 54px;
     width: 1440px;
-    margin: 0px 107px 0px 107px;
+    /* margin: 0px 107px 0px 107px; */
     padding: 0px 34px 0px 34px;
     min-height: auto;
     max-width: 1440px;
@@ -684,6 +684,7 @@ a {
 .img-container {
     width: 1385px;
     height: 704px;
+    margin-right: 40px;
 }
 
 .imgs{
