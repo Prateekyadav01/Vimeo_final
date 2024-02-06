@@ -759,8 +759,9 @@ body{
     }
     /* check again */
     .sectionPara p{
-        width: 80vw;
+        width: 60vw;
         height: 50vh;
+        font-size: 30px;
         margin-top: 40px;
         
     }
@@ -790,11 +791,12 @@ body{
 
     .section722 {
         flex-direction: column; 
-        text-align: center; 
+        text-align: center;
+        font-size: smaller; 
     }
 
     .section722 h1 {
-        width: 100%; 
+        width: 49%; 
     }
     .section6{
         display: flex;
@@ -817,6 +819,29 @@ body{
         height: 100vh;
         margin-top: 100px;
       }
+      .hero {
+        color: white;
+        margin: 25px;
+        font-size: 40px;
+        text-align: center;
+        opacity: 0;
+        transform: translateY(-20px);
+        animation: title 3s cubic-bezier(.33333, 0, .25, 1) infinite forwards;
+    }
+    .section31{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80vw;
+        height: 80vh;
+        /* border: 2px solid blue; */
+        margin-left: 70px;
+        background-color: rgb(72, 66, 66);
+        border-radius: 1.75rem;
+        margin-top: 20px;
+    }
+      
 }
 
 .wrapper1{
@@ -831,7 +856,7 @@ body{
     transition-duration: 2.5s;
 }
 .btn-pink1 {
-    background-color: rgb(52, 49, 49);
+    background-color: rgb(13, 187, 240);
     width: fit-content;
     color: white;
     padding: 0.8rem 2.3rem;
@@ -842,7 +867,7 @@ body{
     border-radius: 0.75rem;
     font-weight: 500;
     position: relative;
-    width: 20vw;
+    width: 30vw;
     /* margin-top: 10px; */
     height: 60px;
     display: flex;
@@ -854,7 +879,7 @@ body{
   .btn-pink1::before {
     content: "";
     position: absolute;
-    background-color: #15bde3;
+    background-color: rgb(27, 133, 168);
     top: 0;
     left : 0;
     right: 0;
