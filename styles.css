@@ -80,16 +80,20 @@ a {
 /*  eplore box */
 
 .explore-box {
-    height: 136px;
-    width: 1926px;
-    margin:  99px 0px 0px 0px;
+    
+    width: 100vw;
+    /* border: 2px solid rebeccapurple; */
+    margin-top: 120px;
     /* background-color: red; */
 }
 
 .inside-explorbox {
     height: 136px;
-    width: 1472px;
-    margin: 0px 225px;
+    width: 92vw;
+    margin-left: 40px;
+    /* margin: 0px 225px; */
+    /* border: 2px solid rebeccapurple; */
+
     /* background-color: rgb(255, 255, 255); */
 }
 .explorbox-bg {
@@ -173,18 +177,25 @@ a {
 
 .main {
 
+<<<<<<< HEAD
     width: 101vw;
     height: 86vh;
+=======
+    width: 100vw;
+    height: 81vh;
+>>>>>>> 41616241bac7c58e5cdb8d6aa0a784a37c73acc7
 
     /* background-color: red; */
 }
 
 
 .video-container{
-    width: 76.9vw;
+    width: 95%;
     height: 80vh;
 
-    margin: 0px 293px;
+    /* margin: 0px 293px; */
+
+    margin-left: 110px;
 }
 
 .vid{
@@ -240,6 +251,7 @@ a {
 .emoji{
     display: flex;
     flex-direction: row;
+<<<<<<< HEAD
     width: 90vw;
     height: 50;
     /* border: 2px solid red; */
@@ -247,6 +259,17 @@ a {
     align-items: center;
     margin: 0px 82px;
     gap: 4.5%;
+=======
+    width: 100vw;
+    height: 50vh;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    /* margin-left: 60px; */
+    margin-top: 76px;
+    gap: 100px;
+>>>>>>> 41616241bac7c58e5cdb8d6aa0a784a37c73acc7
 }
 
 .emoji-div{
@@ -254,6 +277,7 @@ a {
     width: 319px; */
     display: flex;
     flex-direction: column;
+    /* border: 2px solid red; */
 }
 
 .emoji-svg{
@@ -283,7 +307,8 @@ a {
 .section_scroll {
     height: 3665px;
     width: 1903px;
-    margin: 56px 0px 96px 0px;
+    /* margin: 56px 0px 96px 0px; */
+    /* border: 2px solid red; */
 }
 
 .inside_section_scroll{
@@ -293,7 +318,8 @@ a {
     height: 3812px;
     width: 1440px;
     max-width: 1440px;
-    margin: 0px 232px 0px 232px;
+    /* margin: 0px 232px 0px 232px; */
+    margin-left: 30px;
 
     /* background-color: rgb(129, 129, 129); */
 }
@@ -426,6 +452,7 @@ a {
     height: 246px;
     width: 1903px;
     padding: 96px 125px 96px 125px;
+   
 
     /* background-color: purple; */
 }
@@ -463,7 +490,7 @@ a {
 .inside_section_exp {
     height: 992px;
     width: 1440px;
-    margin: 0px 232px 0px 232px;
+    /* margin: 0px 232px 0px 232px; */
     padding: 0px 0px 64px;
     max-width: 1440px;
     min-width: 375px;
