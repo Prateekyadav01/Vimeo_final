@@ -499,9 +499,14 @@ body{
     width: 30px;
 }
 .section722 :hover{
-    background-color: aqua;
-    height: 15vh;
-    border-radius: 0.75rem;
+    transition: 0.9s ease;
+    /* color: black; */
+    /* border-radius: 25px; */
+    color: black;
+    background-color: #17D5FF;
+    box-shadow: 0 0 20px #17D5FF;
+    cursor: pointer;
+    height: 10vh;
 }
 .container{
     width: 20vw;

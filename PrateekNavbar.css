@@ -287,3 +287,10 @@
         box-sizing: content-box;
     }
 }
+
+
+.image_navbar{
+    width: 300px;
+    height: 300px;
+    margin-left: 450px;
+}
