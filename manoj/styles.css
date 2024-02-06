@@ -30,16 +30,18 @@ body {
   margin-top: 40px;
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
 }
 .plan .plan_font {
   font-size: 80px;
   font: bold;
   font-weight: 600;
+  font-family: "Helvetica Neue", sans-serif;
 }
 .subscription {
   display: flex;
   justify-content: center;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
 .save {
   margin-left: 15px;
@@ -85,6 +87,7 @@ body {
   font-size: 30px;
   margin-top: 10px;
   margin-bottom: 40px;
+  font-family: "Helvetica Neue", sans-serif;
 }
 .buttons {
   font-size: 14px;
@@ -327,7 +330,9 @@ li {
 .cfree h2 {
   margin-top: 40px;
   margin-left: 15px;
+  font-family: "Helvetica Neue", sans-serif;
 }
+
 .cfree p {
   margin-top: 20px;
   font-size: xx-large;
@@ -382,6 +387,8 @@ li {
 .smallstarter h2 {
   margin-top: 40px;
   margin-left: 15px;
+  font-family: "Helvetica Neue", sans-serif;
+
 }
 .smallstarter p {
   margin-top: 20px;
@@ -400,6 +407,7 @@ li {
 .smallstanderd h2 {
   margin-top: 15px;
   margin-left: 15px;
+  font-family: "Helvetica Neue", sans-serif;
 }
 .smallstanderd p {
   margin-top: 20px;
@@ -418,6 +426,7 @@ li {
 .smallAdvanced h2 {
   margin-top: 40px;
   margin-left: 15px;
+  font-family: "Helvetica Neue", sans-serif;
 }
 .smallAdvanced p {
   margin-top: 20px;
@@ -436,6 +445,7 @@ li {
 .smallenterprise h2 {
   margin-top: 40px;
   margin-left: 15px;
+  font-family: "Helvetica Neue", sans-serif;
 }
 .smallenterprise p {
   margin-top: 20px;
@@ -536,7 +546,8 @@ li {
   line-height: 60px;
 }
 .sub_h3 {
-  line-height: 40px;
+  line-height: 60px;
+  font-family: "Helvetica Neue", sans-serif;
 }
 .q svg {
   width: 30px;
