@@ -632,10 +632,7 @@ li {
   margin-top: 0;
   width: 100%;
   height: 180px;
-  background-color: ;
-}
-.slide_image{
-
+  animation: slideAnimation 10s linear infinite;
 }
 
 .simg {
@@ -646,4 +643,18 @@ li {
 .bwhddj {
   max-width: 200px;
   max-height: 50px;
+}
+
+@keyframes slideAnimation {
+  from {
+      transform: translateX(0);
+  }
+  to {
+      transform: translateX(-20%);
+  }
+}
+.slidermain{
+  width: 90%;
+  overflow: hidden;
+  align-items: center;
 }
