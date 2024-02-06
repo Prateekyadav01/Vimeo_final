@@ -80,16 +80,20 @@ a {
 /*  eplore box */
 
 .explore-box {
-    height: 136px;
-    width: 1926px;
-    margin:  99px 0px 0px 0px;
+    
+    width: 100vw;
+    /* border: 2px solid rebeccapurple; */
+    margin-top: 120px;
     /* background-color: red; */
 }
 
 .inside-explorbox {
     height: 136px;
-    width: 1472px;
-    margin: 0px 225px;
+    width: 92vw;
+    margin-left: 40px;
+    /* margin: 0px 225px; */
+    /* border: 2px solid rebeccapurple; */
+
     /* background-color: rgb(255, 255, 255); */
 }
 .explorbox-bg {
@@ -173,7 +177,7 @@ a {
 
 .main {
 
-    width: 101vw;
+    width: 100vw;
     height: 81vh;
 
     /* background-color: red; */
@@ -181,10 +185,12 @@ a {
 
 
 .video-container{
-    width: 76.9vw;
+    width: 95%;
     height: 80vh;
 
-    margin: 0px 293px;
+    /* margin: 0px 293px; */
+
+    margin-left: 110px;
 }
 
 .vid{
@@ -236,14 +242,15 @@ a {
 .emoji-container{
     display: flex;
     flex-direction: row;
-    width: 90vw;
+    width: 100vw;
     height: 50vh;
     /* border: 2px solid red; */
     justify-content: center;
     align-items: center;
-    margin-left: 60px;
+    /* border: 2px solid red; */
+    /* margin-left: 60px; */
     margin-top: 76px;
-    gap: 4.5%;
+    gap: 100px;
 }
 
 .emoji-div{
@@ -251,6 +258,7 @@ a {
     width: 319px; */
     display: flex;
     flex-direction: column;
+    /* border: 2px solid red; */
 }
 
 .emoji-svg{
@@ -280,7 +288,8 @@ a {
 .section_scroll {
     height: 3665px;
     width: 1903px;
-    margin: 56px 0px 96px 0px;
+    /* margin: 56px 0px 96px 0px; */
+    /* border: 2px solid red; */
 }
 
 .inside_section_scroll{
@@ -290,7 +299,8 @@ a {
     height: 3812px;
     width: 1440px;
     max-width: 1440px;
-    margin: 0px 232px 0px 232px;
+    /* margin: 0px 232px 0px 232px; */
+    margin-left: 30px;
 
     /* background-color: rgb(129, 129, 129); */
 }
@@ -423,6 +433,7 @@ a {
     height: 246px;
     width: 1903px;
     padding: 96px 125px 96px 125px;
+   
 
     /* background-color: purple; */
 }
@@ -460,7 +471,7 @@ a {
 .inside_section_exp {
     height: 992px;
     width: 1440px;
-    margin: 0px 232px 0px 232px;
+    /* margin: 0px 232px 0px 232px; */
     padding: 0px 0px 64px;
     max-width: 1440px;
     min-width: 375px;
@@ -650,7 +661,8 @@ a {
     height: 843px;
     width: 1440px;
     display: block;
-    margin: 0px 232px;
+    /* margin: 0px 232px; */
+    margin-left: 40px;
     padding: 0px 27px;
 }
 
@@ -782,7 +794,8 @@ a {
 .inside-fotterupper {
     width: 1440px;
     height: 722px;
-    margin: 0px 231px;
+    /* margin: 0px 231px; */
+    margin-left: 40px;
 }
 
 .inside-fotterupper h2 {
@@ -838,12 +851,13 @@ a {
 .inside-footer {
     width: 1440px;
     height: 896px;
-    margin: 0px 231px;
+    /* margin: 0px 231px; */
     padding: 96px 0px 32px;
     background-color: pink;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     display: grid;
+    margin-left: 40px;
     width: 100%;
     min-width: 375px;   
     max-width: 1440px;
