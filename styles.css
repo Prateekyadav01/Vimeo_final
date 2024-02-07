@@ -1401,7 +1401,7 @@ a {
     height: 144px;
     width: 373px;
     margin:-15px -6px 0px -15px;
-    padding: 24px 0px 30px 37px 
+    padding: 24px 0px 30px 37px ;
     border-radius: 24px;
     background-color: #141A20;
 }
@@ -1582,6 +1582,4 @@ a {
 }
 
 
-
-
-
+}
