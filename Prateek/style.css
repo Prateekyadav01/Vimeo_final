@@ -1337,9 +1337,9 @@ body{
     transition: 0.5s ease;
    
 }
-.bottom-footer span a {
+/* .bottom-footer span a {
     color: #cccccc;
-}
+} */
 
 .bottom-footer p {
     color: #cccccc;
@@ -1349,4 +1349,10 @@ body{
     color: #17D5FF;
     
     transition: 0.2s ease;
+}
+
+
+.bottom-footer span a {
+    color: #cccccc;
+    font-size: x-small;
 }
