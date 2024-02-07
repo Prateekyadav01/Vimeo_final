@@ -59,6 +59,7 @@ body {
 .allplan {
   display: flex;
   justify-content: space-around;
+  /* flex-wrap: wrap; */
 }
 .basic {
   display: flex;
@@ -701,4 +702,13 @@ li {
   overflow: hidden;
   align-items: center;
   
+}
+
+
+@media only screen and (max-width:768px) {
+  .allplan {
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+  }
 }
