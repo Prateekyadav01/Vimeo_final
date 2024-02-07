@@ -1751,8 +1751,110 @@ a {
         color: white;
     }
     .img-container {
-        width: 852px;
+        width: 650px;
         height: 704px;
     }
+    .img-1 {
+        width: 308px;
+        height: 704px;
+        border-radius: 30px;
+        background-color: #141A20;
+    }
+    .img-box img {
+        width: 308px;
+        height: 393px;
+        border-radius: 30px;
+    }
+    .imgs {
+        display: flex;
+     
+    }
 
+    .imgs {
+        display: flex;
+        /* justify-content: space-between; */
+    }
+
+
+    .fotter-upper{
+        width: 730px;
+        height: 914px;
+        padding: 95px 0px;
+        /* border: 2px solid rebeccapurple; */
+    }
+
+    .inside-fotterupper {
+        width: 750px;
+        /* border: 2px solid red; */
+        height: 722px;
+        margin: 0px 54px;
+        color: white;
+    }
+    .inside-fotterupper h2 {
+        font-size: 30px;
+        /* text-align: center; */
+        font-weight: 500;
+        width: 864px;
+        height: 100px;
+       
+        margin-bottom: 30px;
+        /* margin: 0px 288px 72px; */
+        padding: 0px 16px;
+    }
+    .inside-fotterupper {
+        width: 700px;
+        height: 722px;
+        margin: 0px 54px;
+        color: white;
+        margin-left: -132px;
+    }
+    .inside-fotterupper h2 {
+        font-size: 28px;
+        margin-left: 50px;
+    }
+    
+    .inside-fotterupper ul li {
+        width: calc(50% - 20px);
+    }
+
+
+    .footer-up {
+        width: 699px;
+        height: 192px;
+        z-index: 0;
+        grid-column: span 23/span 23;
+        grid-column-start: 2;
+        grid-row-start: 1;
+        display: flex;
+        gap: 20px;
+        /* justify-content: space-between; */
+        /* padding: 0px 24px 0px 51px; */
+        grid-template-columns: unset;
+    }
+
+
+    .container-footer {
+        grid-column-start: 1;
+        grid-column-end: -1;
+        /* display: flex; */
+        column-gap: 2.1875rem;
+        row-gap: 6rem;
+        padding: 24px 0px 28px;
+    }
+    .cardname-vid {
+        object-fit: cover;
+        padding: 0px 0px;
+        overflow: hidden;
+        margin: 18px -68px;
+        border-radius: 30px;
+        padding: 0px 0px 0px 0px;
+    }
+    .footcontainer-right {
+        width: 532px;
+        height: 323px;
+        display: flex;
+        flex-grow: 2;
+        flex-direction: column;
+        gap: 22.5rem;
+    }
 }
