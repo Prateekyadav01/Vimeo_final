@@ -675,7 +675,7 @@ li {
   margin-top: 0;
   width: 100%;
   height: 180px;
-  animation: slideAnimation 3s linear infinite;
+  animation: slideAnimation 2s linear infinite;
 }
 
 .simg {
