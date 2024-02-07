@@ -711,4 +711,21 @@ li {
     /* justify-content: space-around; */
     flex-wrap: wrap;
   }
+  .buttons {
+    font-size: 14px;
+    word-break: break-word;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+    border-radius: 0.75rem;
+    height: 3.5rem;
+    opacity: 1 !important;
+    color: rgb(17, 25, 29) !important;
+    border-color: rgb(10, 14, 18) !important;
+    width: 139px;
+    background-color: rgb(23, 213, 255);
+}
+
+
+
 }
