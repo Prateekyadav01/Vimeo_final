@@ -254,7 +254,36 @@ body{
     color: white;
 }
 
+@keyframes slideAnimation {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-20%);
+    }
+  }
 
+/* slider */
+.slidermain{
+    width: 90%;
+    overflow: hidden;
+    /* display: flex;
+    flex-direction: row; */
+    margin-left: 80px;
+    margin-top: 80px;
+  }
+  
+  .slide {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    width: 90vw;
+    height: 180px;
+    gap: 40px;
+    /* margin-left: 100px; */
+    /* border: 2px solid red; */
+    animation: slideAnimation 6s linear infinite;
+  }
 /* .button1 .btn-pink22{
     background-color: rgb(91, 155, 185);
     width: fit-content;
