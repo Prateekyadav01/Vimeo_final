@@ -6,7 +6,7 @@
 .menu-bar{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     background-color: rgba(0,0,0,.1);
     backdrop-filter: blur(40px);
@@ -20,7 +20,7 @@
 .menu-left{
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 30px;
     position: relative;
     justify-content: center;
     align-items: center;
