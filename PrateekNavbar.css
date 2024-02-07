@@ -230,16 +230,57 @@
   background-color: darkgray;
 }
 
-.bar1, .bar2 , .bar3{
-    background-color: white;
+.bar1 , .bar2 , .bar3{
+    background-color:#fff;
     height: 4px;
     width: 36px;
     margin: 3px;
     border-radius: 10px;
 }
-.menu-bar .hambour{
+ .hamburger{
     display: none;
+    margin-right: 20px;
 }
+
+.mobileNav{
+    width: 80px;
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: -160px;
+    padding: 16px;
+    transition: transform 0.3s;
+}
+
+.mobileNav img{
+    width: 24px;
+    height: 24px;
+}
+.openDrawer{
+    transform: translateX(-160px);
+}
+.mobileNav a{
+    text-decoration: none;
+    color: black;
+    margin: 16px 0;
+}
+.mobileNav a:hover{
+    text-decoration: underline;
+}
+.bar1 , .bar2 , .bar3{
+    background-color: #fff;
+    height: 4px;
+    width: 36px;
+    margin: 3px;
+    border-radius: 10px;
+}
+
 
 
 @media only screen and (max-width:1024px) {
@@ -272,8 +313,9 @@
     .menu-left {
         display: none;
     }
-    .menu-bar .hambour {
-        display: block;
+   .hamburger {
+        display: flex;
+        flex-direction: column;
     }
     .menu-right li{
         color: white;
@@ -285,6 +327,42 @@
     .video{
         width: 70vw;
         box-sizing: content-box;
+    }
+    .animateBar1{
+        animation: flipBar1 0.5s;
+        animation-fill-mode: forwards;
+    }
+    .animateBar2{
+        animation: fadeBar2 0.5s;
+        animation-fill-mode: forwards;
+    }
+    .animateBar3{
+        animation: flipBar3 0.5s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes flipBar1 {
+        from{
+            transform: rotate(0);
+        }to{
+            transform: rotate(45deg) translate(4px , 10px);
+        }
+    }
+    @keyframes fadeBar2 {
+        from{
+            transform: scaleX(1);
+            opacity : 1;
+        }to{
+            transform: scaleX(0);
+            opacity : 0;
+        }
+    }
+    @keyframes flipBar3 {
+        from{
+            transform: rotate(0);
+        }to{
+            transform: rotate(-45deg) translate(4px , -10px);
+        }
     }
 }
 
