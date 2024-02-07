@@ -8,7 +8,7 @@ body{
     background-color: rgb(10 14 18);
     overflow-x: hidden;
     font-weight: 500;
-    font-family: ABCRepro-Medium, "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    font-family: Helvetica, Sans-Serif;
 }
 
 .header{
@@ -187,7 +187,6 @@ a {
 .video-container{
     width: 95%;
     height: 80vh;
-
     /* margin: 0px 293px; */
 
     margin-left: 110px;
@@ -208,9 +207,7 @@ a {
     margin: -450px 26px;
 }
 
-.heading-down_btn {
-    width: 1209px;
-}
+
 
 .heading_video span{
     font-size: 120px;
@@ -226,12 +223,64 @@ a {
     margin-top: 6px;
 }
 
+.headbtn {
+    display: flex;
+    
+}
+
+.headbtn :hover{
+    background-color: #17D5FF;
+    color: white;
+}
+
 .para_video span {
     color: #F1F5F9;
     text-align: left;
     font: normal;
     font-size: 20px;
 }
+
+.headbtn-flex {
+    display: flex;
+    margin: 0px 91px 0px 0px; 
+}
+
+
+.headbtn {
+    width: 588px;
+    height: 56px;
+    margin: 32px 0px 0px 0px;
+    /* background-color: white; */
+    
+}
+
+.headbtn {
+    width: 250px;
+    height: 60px;
+    align-items: center;
+}
+
+.headbtn :hover {
+    background-color: #17D5FF;
+    color: black;
+    transition: 0.9s ease;
+}
+
+.headbtn span {
+    display: flex;
+    font-size: 18px;
+    background-color: #000000;
+    padding: 18px 16px;
+    border-radius: 15px;
+    font-weight: 530;
+}
+
+.headbtn span i{
+    padding: 4px 14px;
+}
+
+
+
 
 /* button inside of video */
 /* remain to rigting the part  */
@@ -1122,7 +1171,8 @@ a {
     font-size: 1.5rem;
     line-height: 1.1;
     letter-spacing: -.06rem;
-    font-weight: 500;
+    font-weight: 700;
+
 }
 .footcontainer-left-downside {
     width: 769px;
@@ -1280,3 +1330,8 @@ a {
     
     transition: 0.2s ease;
 }
+
+
+
+
+
