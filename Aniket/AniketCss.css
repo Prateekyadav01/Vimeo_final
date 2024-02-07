@@ -352,7 +352,7 @@ header{
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    curser:pointer;
+    cursor: pointer;
 }
 
 .upsell__content {
