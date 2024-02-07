@@ -529,7 +529,7 @@ a {
 
 .inside_slider {
     padding: 7px 0px;
-    animation: 50s linear 0s infinite normal none running sliding;
+    animation: 70s linear 0s infinite normal none running sliding;
     display: flex;
     width: 4800px;
     height: 54px;
