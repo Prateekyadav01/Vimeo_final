@@ -699,7 +699,7 @@ body{
     /* border: 2px solid rebeccapurple; */
   }
   
-  a{
+  .container a{
     display: block;
     position: relative;
     text-decoration: none;
@@ -724,11 +724,11 @@ body{
     text-align: center;
     transition: color 350ms ease;
   }
-  a:hover span{
+  .container a:hover span{
     color: white;
   }
   
-  a::after, a::before{
+  .container  a::after, .container a::before{
     content: " ";
     display: block;
     position: absolute;
@@ -741,25 +741,25 @@ body{
     z-index: -1;
   }
   
-  a::before {
+  .container a::before {
   /*   background: blue; */
     transform: translateX(100%);
     z-index: 1;
   }
   
-  a:hover:before {
+  .container a:hover:before {
     transform: translateX(0);
     transition: transform 350ms ease;
   }
   
-  a::after {
+  .container a::after {
      z-index: 0;
     transform: translateX(100%);
     transition: none;
     transition: transform 350ms ease;
   }
   
-  a:hover:after {
+  .container a:hover:after {
     opacity: 1;
     transform: translateX(0);
    transition: transform 350ms 360ms ease;
