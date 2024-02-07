@@ -430,7 +430,7 @@ body{
     height: 140vh;
     position: relative;
     margin-top: 280px;
-   
+   /* z-index: 500; */
 }
 
 .section71 {
@@ -439,9 +439,11 @@ body{
     color: white;
     gap: 30px;
     position: sticky;
-    top: 0;
+    top: 10px;
     z-index: 100;
+    margin-top: 50px;
     margin-left: 50px;
+    /* border: 2px solid red; */
 }
 
 .section71 h3{
@@ -481,6 +483,7 @@ body{
     color: white;
     gap: 60px;
     margin-right: 40px;
+    /* margin-top: 40px; */
     /* border: 2px solid red; */
 }
 .section722{
