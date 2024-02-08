@@ -32,6 +32,21 @@ Working under your mentorship has been a truly enriching experience, and I am im
 - *Key Features*: Implemented a responsive design catering to both laptop and mobile views.
 
 
+## Screenshots
+![Homepage Screenshot](/assests/HomePageAdded.png)
+
+### Laptop View
+![Laptop View](/assests/Manoj.png)
+
+### Mobile View
+![Mobile View](/assests/MobileView.png)
+
+### Mobile View
+![Mobile View](/assests/Screenshot%202024-02-08%20102913.png)
+
+
+
+
 ## Technologies Used
 - *HTML*: Used for structuring the content of the webpage.
 - *CSS*: Utilized for styling and layout design, ensuring an aesthetically pleasing interface.
