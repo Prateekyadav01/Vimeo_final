@@ -183,7 +183,7 @@ body{
     font-size: 60px;
     text-align: center;
     opacity: 0;
-    transform: translateY(-20px);
+    transform: translateY(-40px);
     animation: title 3s cubic-bezier(.33333, 0, .25, 1) infinite forwards;
 }
 
@@ -206,8 +206,8 @@ body{
     background-color: rgb(20, 20, 21);
     position: relative;
     z-index: 1;
-    bottom: 0;
-    top: 0;
+    /* bottom: 0; */
+    /* top: 0; */
     /* justify-content: space-around; */
     justify-content: space-between;
 }
