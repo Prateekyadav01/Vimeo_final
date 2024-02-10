@@ -14,7 +14,7 @@ Working under your mentorship has been a truly enriching experience, and I am im
 # Contribution to vimeo website
 
 ## Dhiraj Contribution
-- *Name*: Dhiraj 
+- *Name*: Mr. Dhiraj Bhawsar
 - *Role*: Team Leader
 - *Contribution*: Created the HomePage of Vimeo using HTML, CSS, and JavaScript.
 - *Key Features*: Implemented a responsive design catering to both laptop and mobile views.
